@@ -14,15 +14,13 @@ export default function Home() {
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
-        <p className={styles.description}>
+        <a href="index.js" className={styles.card}>
           Home
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+        </a>
 
-        <p className={styles.description}>
+        <a href="page2.js" className={styles.card}>
           Seite 2
-          <code className={styles.code}>pages/page2.js</code>
-        </p>
+        </a>
 
         <p className={styles.description}>
           Get started by editing{' '}
