@@ -19,6 +19,10 @@ export default function Home() {
           <code className={styles.code}>pages/index.js</code>
         </p>
 
+        <p className={styles.description}>
+          Hier ist ein Bild:
+          <img src="sapbw.png" alt="Mein Buch" width="200" heigth="200"></img>
+        </p>
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h3>Documentation &rarr;</h3>
