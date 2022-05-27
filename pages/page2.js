@@ -11,15 +11,13 @@ export default function Home() {
 
       <main className={styles.main}>
 
-        <p className={styles.description}>
+      <a href="index.html" className={styles.card}>
           Home
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+        </a>
 
-        <p className={styles.description}>
+        <a href="page2.html" className={styles.card}>
           Seite 2
-          <code className={styles.code}>pages/page2.js</code>
-        </p>
+        </a>
 
         <h1 className={styles.title}>
           Das bin ich

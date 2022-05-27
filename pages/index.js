@@ -14,11 +14,11 @@ export default function Home() {
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
-        <a href="index.js" className={styles.card}>
+        <a href="index.html" className={styles.card}>
           Home
         </a>
 
-        <a href="page2.js" className={styles.card}>
+        <a href="page2.html" className={styles.card}>
           Seite 2
         </a>
 
