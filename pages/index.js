@@ -15,6 +15,16 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
+          Home
+          <code className={styles.code}>pages/index.js</code>
+        </p>
+
+        <p className={styles.description}>
+          Seite 2
+          <code className={styles.code}>pages/page2.js</code>
+        </p>
+
+        <p className={styles.description}>
           Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>
         </p>
